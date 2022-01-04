@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="/img/icons/icon-96x96.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
+
+    <title>To-do app</title>
+</head>
+<body>
+    <main class="container">
+        <div class="jumbotron">
+            <h1>To-do appa</h1>
+            <hr>
+            <textarea class="form-control" rows="3" placeholder="Task name" id="taskName"></textarea>
+            <button id="add" class="btn btn-primary" style="margin-top: 10px; margin: auto;">Add task</button>
+          </div>
+        <hr>
+        <div>
+            <ul class="list-group" id="task-list">
+                <li class="list-group-item disabled">Task 1</li>
+              </ul>
+        </div>
+    </main>
+    <script src="src/js/app.js"></script>
+</body>
+</html>
