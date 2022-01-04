@@ -26,7 +26,7 @@ window.addEventListener("load", function(){
     }
     function endPainting(){
         painting = false;
-        // ctx.beginPath();
+        ctx.beginPath();
     }
 
     function draw(e){
